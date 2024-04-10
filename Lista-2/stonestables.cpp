@@ -20,15 +20,13 @@ int main () {
         if (colors[i] != ' ')
             colors_clean[i] = colors[i];
 
-        for (int j = i + 1; colors [j] == colors_clean [i]; j++) {
+        for (int j = i + 1; colors [j] == colors_clean [i]; j++)
             colors [j] = ' ';
-        }
-
     }
 
     for (char color : colors) {
         if (color == ' ')
-        num_removes++;
+            num_removes++;
     }
 
     cout << num_removes;
