@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void sort(vector<int>& v) {
+void sort (vector <int> &v) {
 
     for (int i = 0; i < v.size(); i++) {
 
